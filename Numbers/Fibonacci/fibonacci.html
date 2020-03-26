@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <title>Fibonacci Sequence Generator</title>
+
+    <Head><h1>Generate a Fibonacci Sequence to the N Number</h1></Head>
+
+    <p>How many digits would you like to generate?</p>
+    <textarea id="fibSelection" rows="1" cols="6" style="resize:none"></textarea>
+    <br>
+    <button onclick="fib()">Enter</button>
+    <br>
+    <div id="fibResult"></div>
+</html>
+
+<script>
+let fib = () => {
+    const fibNum = document.getElementById("fibSelection").value;
+    let result = "<p>";
+    if (fibNum < 1) { // Handles cases less than 1. I.e., no numbers
+        result += "No result. Number less than 1";
+    } else {
+
+        // This will always keep track of two numbers, with the current number being the one that will be added to the result string
+        // The first fibonacci number begins at 0, with the second beginning at 10
+
+        let current = 0;
+        let next = 1;
+        for (i = 1; i <= fibNum; i++) {
+            result += current + "   ";
+            if (i % 10 === 0)
+                result += "<br>"; // For the sake of formatting, a line break will be added after every 10 numbers
+            let temp = next;
+            next = current + next;
+            current = temp;
+        }
+    }
+
+    result += "</p>";
+    document.getElementById("fibResult").innerHTML = result;
+}
+</script>
