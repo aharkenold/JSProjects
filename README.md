@@ -8,3 +8,4 @@ A list of projects can be found below
 ##  Numbers
 
 [Fibonacci Sequence](https://aharken.github.io/JSProjects/Numbers/Fibonacci/fibonacci.html)
+[Mortgage Calculator](https://aharken.github.io/JSProjects/Numbers/Mortgage/mortgageCalc.html)

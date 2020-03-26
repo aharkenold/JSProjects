@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <title>Mortgage Calculator</title>
+
+    <head><h1>Mortgage Calculator</h1></head>
+    <p>Please Enter the Loan Amount and Terms Below</p>
+    Loan Amount in Dollars ($)  <textarea id="amount" rows="1" cols="10" style="resize:none"></textarea>
+    <br>
+    Loan Rate in Percent (5.6 for 5.6%) <textarea id="rate" rows="1" cols="6" style="resize:none"></textarea>
+    <br>
+    Payment Term in Years <textarea id="term" rows="1" cols="6" style="resize:none"></textarea>
+    <br>
+    <button onclick="calcMortgage()">Submit</button>
+    <br>
+    <br>
+    <div id="result"></div>
+    <div id="visualize"></div>
+</html>
+
+<script src="mortgageCalc.js"></script>
