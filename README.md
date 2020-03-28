@@ -12,3 +12,5 @@ A list of projects can be found below
 [Mortgage Calculator](https://aharken.github.io/JSProjects/Numbers/Mortgage/mortgageCalc.html)
 
 [Change Calculator](https://aharken.github.io/JSProjects/Numbers/Change/changeCalc.html)
+
+[Graphical Calculator](https://aharken.github.io/JSProjects/Numbers/Calculator/calculator.html)
