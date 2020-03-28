@@ -1,0 +1,53 @@
+#calculator {
+    background-color: lightgreen;
+    height: 400px;
+    width: 300px;
+}
+
+#entry {
+    resize: none;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: right;
+}
+
+#calcBody {
+    margin-top: 30px;
+}
+
+#numberLeft {
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+#numberMid {
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+}
+
+#numberRight {
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+}
+
+#clear {
+    height: 50px;
+    margin-left: 40px;
+    width: 85px;
+    font-size: 40px;
+}
+
+#equals {
+    height: 50px;
+    margin-left: 44px;
+    width: 85px;
+    font-size: 40px;
+}

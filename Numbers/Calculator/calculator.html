@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="calcStyle.css">
+<html>
+    <title>CSS and JS Calculator</title>
+    <body onkeypress="handleKey()">
+        <h1>Basic JavaScript Calculator</h1>
+        <br>
+        <br>
+        <div id="calculator">
+            <textarea id="entry" rows="1" cols="16" readonly></textarea>
+            <br>
+            <div id="calcBody">
+                <button id="numberLeft" onclick="handleButton('1')">1</button>
+                <button id="numberMid" onclick="handleButton('2')">2</button>
+                <button id="numberRight" onclick="handleButton('3')">3</button>
+                <br>
+                <button id="numberLeft" onclick="handleButton('4')">4</button>
+                <button id="numberMid" onclick="handleButton('5')">5</button>
+                <button id="numberRight" onclick="handleButton('6')">6</button>
+                <br>
+                <button id="numberLeft" onclick="handleButton('7')">7</button>
+                <button id="numberMid" onclick="handleButton('8')">8</button>
+                <button id="numberRight" onclick="handleButton('9')">9</button>
+                <br>
+                <button id="numberLeft" onclick="handleButton('+')">+</button>
+                <button id="numberMid" onclick="handleButton('0')">0</button>
+                <button id="numberRight" onclick="handleButton('-')">-</button>
+                <br>
+                <button id="numberLeft" onclick="handleButton('*')">*</button>
+                <button id="numberMid" onclick="handleButton('/')">/</button>
+                <button id="numberRight" onclick="handleButton('.')">.</button>
+                <br>
+                <button id="clear" onclick="handleButton('Clear')">C</button>
+                <button id="equals" onclick="handleButton('=')">=</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="calc.js"></script>
