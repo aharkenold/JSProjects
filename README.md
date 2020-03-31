@@ -1,16 +1,16 @@
 # JSProjects
 A selection of projects found [here](https://github.com/karan/Projects) completed in JavaScript
 
-Please visit the [Github Pages](https://aharken.github.io/JSProjects/index.html) for links to working demos
+Please visit the [Github Pages](https://jsprojects.aharken.com/index.html) for links to working demos
 
 A list of projects can be found below
 
 ##  Numbers
 
-[Fibonacci Sequence](https://aharken.github.io/JSProjects/Numbers/Fibonacci/fibonacci.html)
+[Fibonacci Sequence](https://jsprojects.aharken.com/Numbers/Fibonacci/fibonacci.html)
 
-[Mortgage Calculator](https://aharken.github.io/JSProjects/Numbers/Mortgage/mortgageCalc.html)
+[Mortgage Calculator](https://jsprojects.aharken.com/Numbers/Mortgage/mortgageCalc.html)
 
-[Change Calculator](https://aharken.github.io/JSProjects/Numbers/Change/changeCalc.html)
+[Change Calculator](https://jsprojects.aharken.com/Numbers/Change/changeCalc.html)
 
-[Graphical Calculator](https://aharken.github.io/JSProjects/Numbers/Calculator/calculator.html)
+[Graphical Calculator](https://jsprojects.aharken.com/Numbers/Calculator/calculator.html)
