@@ -14,3 +14,7 @@ A list of projects can be found below
 [Change Calculator](https://jsprojects.aharken.com/Numbers/Change/changeCalc.html)
 
 [Graphical Calculator](https://jsprojects.aharken.com/Numbers/Calculator/calculator.html)
+
+## Text
+
+[Guestbook](https://jsprojects.aharken.com/Text/Guestbook/guestbook.html)

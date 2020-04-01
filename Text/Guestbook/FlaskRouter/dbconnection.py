@@ -13,7 +13,7 @@ from flask import make_response
 # The function retrieveDBInfo() returns the database information
 # As a Python dictionary which can be used to connect to the database
 def retrieveDBInfo():
-    dbF = open("dbinfo.pass", encoding=None)
+    dbF = open("dbinfo.pass")
     print(dbF)
     return json.load(dbF)
 

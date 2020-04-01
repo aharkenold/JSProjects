@@ -32,14 +32,14 @@ let handleSubmit = () => {
 
 // This function is run on page load and sends a getMessage request to the Flask Router
 let handleLoad = async function() {
-    getReq.open("GET", "http://guestbookrouter:26550/getMessages")
+    getReq.open("GET", "https://guestbookrouter.aharken.com:26550/getMessages")
     getReq.send();
     //console.log("Page loaded");
 }
 
 // This function is run after the form data is turned into a JSON format and sends it to the Flask Router
 let sendReq = async function(formData) {
-    postReq.open("POST", "http://guestbookrouter:26550/postMessage");
+    postReq.open("POST", "https://guestbookrouter.aharken.com:26550/postMessage");
     postReq.send(formData);
     //console.log(postReq.readyState);
 }
