@@ -1,1 +1,3 @@
 *.crdownload
+*.pass
+*.pyc
