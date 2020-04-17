@@ -8,44 +8,48 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <script src="guestbook.js"></script>
+        <link rel="stylesheet" type="text/css" href="guestbook.css">
         <title>aharken Guest Book</title>
     </head>
 
     <body onload="handleLoad()">
-        <h1>Welcome to the Guestbook</h1>
-        <p>This guestbook utilizes a Flask router to post and retrieve messages. Visit my <a href="https://github.com/aharken/JSProjects">JSProjects</a> Github repository for more information.</p>
-        <form onsubmit="handleSubmit();return false">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" maxlength="20" minlength="3" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" maxlength="120" minlength="1" rows="3" style="resize: none;" required></textarea><br>
-            <input type="submit">
-        </form>
-        <br><br>
-        <div id="guestbookBody">
-            <!-- The following divs are static data for design purposes only -->
-            <!-- <div id="guestbookEntry">
-                <p>"Hi Guestbook, I'm dad"</p>
-                <p> - Dad, [Timestamp]</p>
-                <br>
+        <div id="bodyWrapper">
+            <div id="guestbookHeaderWrapper">
+            <h1>Welcome to the Guestbook</h1>
+            <p>This guestbook utilizes a Flask router to post and retrieve messages. Visit my <a href="https://github.com/aharken/JSProjects">JSProjects</a> Github repository for more information.</p>
+            <form onsubmit="handleSubmit();return false">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" maxlength="20" minlength="3" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" maxlength="120" minlength="1" rows="3" style="resize: none;" required></textarea><br>
+                <input type="submit">
+            </form>
             </div>
-            <div id="guestbookEntry">
-                <p>"Hi Guestbook, I'm mom"</p>
-                <p> - Mom, [Timestamp]</p>
-                <br>
+            <br><br>
+            <div id="guestbookBody">
+                <!-- The following divs are static data for design purposes only -->
+                <!-- <div id="guestbookEntry">
+                    <p>"Hi Guestbook, I'm dad"</p>
+                    <p> - Dad, [Timestamp]</p>
+                    <br>
+                </div>
+                <div id="guestbookEntry">
+                    <p>"Hi Guestbook, I'm mom"</p>
+                    <p> - Mom, [Timestamp]</p>
+                    <br>
+                </div>
+                <div id="guestbookEntry">
+                    <p>"Hi Guestbook, I'm son"</p>
+                    <p> - Son, [Timestamp]</p>
+                    <br>
+                </div>
+                <div id="guestbookEntry">
+                    <p>"Hi Guestbook, I'm daughter"</p>
+                    <p> - Daughter, [Timestamp]</p>
+                    <br>
+                </div> -->
             </div>
-            <div id="guestbookEntry">
-                <p>"Hi Guestbook, I'm son"</p>
-                <p> - Son, [Timestamp]</p>
-                <br>
-            </div>
-            <div id="guestbookEntry">
-                <p>"Hi Guestbook, I'm daughter"</p>
-                <p> - Daughter, [Timestamp]</p>
-                <br>
-            </div> -->
         </div>
     </body>
 </html>
-
-<script src="guestbook.js"></script>

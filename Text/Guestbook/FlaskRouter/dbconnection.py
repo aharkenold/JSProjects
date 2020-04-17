@@ -14,7 +14,7 @@ from flask import make_response
 # As a Python dictionary which can be used to connect to the database
 def retrieveDBInfo():
     dbF = open("dbinfo.pass")
-    print(dbF)
+    #print(dbF)
     return json.load(dbF)
 
 def handleMessage(jsonData):

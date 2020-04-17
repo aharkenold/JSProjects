@@ -1,0 +1,33 @@
+html {
+    background-color: lightgray;
+}
+body {
+    align-content: center;
+}
+
+#bodyWrapper {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#guestbookBody {
+    width: 100%;
+}
+
+#guestbookHeaderWrapper {
+    margin: auto;
+    width: 50%;
+}
+
+#guestbookMessage {
+    background-color: lightblue;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 2px 1px black;
+}
+
+#guestbookMessageText {
+    margin-left: 5px;
+}

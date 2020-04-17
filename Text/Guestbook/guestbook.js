@@ -7,8 +7,8 @@ let getReq = new XMLHttpRequest();
 let displayMessages = messageList => {
     document.getElementById("guestbookBody").innerHTML = "";
     for (i = 0; i < messageList.length; i++) {
-        let post = "<div id='guestbookMessage'>" +
-            "<p>" + messageList[i].message + "</p>" + "<p>  -" + messageList[i].name + "</p><br>";
+        let post = "<div id='guestbookMessage'><div id='guestbookMessageText'>" +
+            "<p>" + messageList[i].message + "</p>" + "<p>  -" + messageList[i].name + "</p>";
         document.getElementById("guestbookBody").innerHTML += post;
     }
 }
